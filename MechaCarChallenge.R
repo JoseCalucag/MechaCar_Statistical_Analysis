@@ -22,3 +22,13 @@ total_summary <- SusCoil %>% summarize(Mean=mean(PSI), Median=median(PSI),Varian
 
 # Create lot_summary dataframe
 lot_summary <- SusCoil %>% group_by(Manufacturing_Lot) %>% summarize(Mean=mean(PSI), Median=median(PSI),Variance=var(PSI), StandardDeviation=sd(PSI))
+
+# Deliverable 3 -------------------------
+
+# Perform t-test across all manufacturing lots
+t.test(SusCoil$PSI, mu=1500)
+
+#Perform t-test for each manufacturing lot
+t.test(subset(SusCoil, Manufacturing_Lot=="Lot1")$PSI,mu = 1500)
+t.test(subset(SusCoil, Manufacturing_Lot=="Lot2")$PSI,mu = 1500)
+t.test(subset(SusCoil, Manufacturing_Lot=="Lot3")$PSI,mu = 1500)
