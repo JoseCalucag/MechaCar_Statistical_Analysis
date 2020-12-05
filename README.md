@@ -29,20 +29,38 @@ The main indicator if the linear model predicts the mpg of the prototype is the 
 The Suspension_Coil.csv is comprised of 150 different vehicles ID, 3 different lot numbers, and corresponding PSI levels for each vehicle. Based on that dataset, I created two summary tables to look at the mean, median, variance, and standard deviation of data. The first table looked at of the data as a whole, while the second table looked specific at each of the three different lots that the MechaCars were divided into. Here are the two tables.
 
  <p align = "center">
-<img src = "https://github.com/JoseCalucag/MechaCar_Statistical_Analysis/blob/main/pics/deliverable2Total.png" width = "200" height = "100">
+<img src = "https://github.com/JoseCalucag/MechaCar_Statistical_Analysis/blob/main/pics/deliverable2Total.png" width = "400" height = "100">
  </p>
 
 <p align = "center">
-<img src = "https://github.com/JoseCalucag/MechaCar_Statistical_Analysis/blob/main/pics/deliverable2Lot.png" width = "400" height = "200">
+<img src = "https://github.com/JoseCalucag/MechaCar_Statistical_Analysis/blob/main/pics/deliverable2Lot.png" width = "500" height = "200">
  </p>
  
 
 
 #### The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. Does the current manufacturing data meet this design specification for all manufacturing lots in total and each lot individually? Why or why not?
-Looking at the total summary, the variance of all lots is 62.2935 which seems to be favorable but could be better. If we look at the lots individually, we see that lot 3 can be the reason as it's variance 170; where lot 1 and 2 are 0.980 and 7.47 respectively. Because of this, the manufacturing team should deal with cars in lots 1 and 2.
+Looking at the total summary, the variance of all lots is 62.29356 which seems to be favorable but could be better. Bu if we look at the lots individually, we can see that lot 3 can be defining reason for the low variance as it's variance is 170, almost 3 times the collective variance; whereas lot 1 and 2 have variances of 0.980 and 7.47 respectively. Because of this, the manufacturing team should deal with cars in lots 1 and 2.
 
 <h2> T-Tests on Suspension Coils </h2>
+In this section, I wanted to determine if all or any of the manufacturing lots are statistically different from the population mean of 1,500 pounds per square inch. In order to do this, I used R's t.test() function to find four different p-values. After running the tests, all four p-values where much greater than .05 meaning that I would fail to reject that there is a statistical difference between the four groups and the population mean.
 
+ <p align = "center">
+<img src = "https://github.com/JoseCalucag/MechaCar_Statistical_Analysis/blob/main/pics/Deliverable3All.png" width = "500" height = "200">
+ </p>
+
+<p align = "center">
+<img src = "https://github.com/JoseCalucag/MechaCar_Statistical_Analysis/blob/main/pics/Deliverable3Lot1.png" width = "500" height = "200">
+ </p>
+ 
+ <p align = "center">
+<img src = "https://github.com/JoseCalucag/MechaCar_Statistical_Analysis/blob/main/pics/Deliverable3Lot2.png" width = "500" height = "200">
+ </p>
+ 
+ <p align = "center">
+<img src = "https://github.com/JoseCalucag/MechaCar_Statistical_Analysis/blob/main/pics/Deliverable3Lot3.png" width = "500" height = "200">
+ </p>
+ 
+ 
 #### briefly summarize your interpretation and findings for the t-test results. Include screenshots of the t-test to support your summary.
 
 <h2> Study Design: MechaCar vs Competition </h2>
