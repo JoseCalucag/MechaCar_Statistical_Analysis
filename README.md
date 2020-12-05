@@ -60,15 +60,16 @@ In this section, I wanted to determine if all or any of the manufacturing lots a
 <img src = "https://github.com/JoseCalucag/MechaCar_Statistical_Analysis/blob/main/pics/Deliverable3Lot3.png" width = "500" height = "200">
  </p>
  
- 
-#### briefly summarize your interpretation and findings for the t-test results. Include screenshots of the t-test to support your summary.
-
 <h2> Study Design: MechaCar vs Competition </h2>
 
-#### Write a short description of a statistical study that can quantify how the MechaCar performs against the competition. In your study design, think critically about what metrics would be of interest to a consumer: for a few examples, cost, city or highway fuel efficiency, horse power, maintenance cost, or safety rating.
+#### What metric or metrics are you going to test?
+I believe that fuel efficiency is an important factor when looking to purchase a car. So, we can get a general idea by looking at both city and highway fuel efficiency. By looking at variables both and then comparing the MechaCar to the competition, we can get a general idea of the performance and even the longevity of the MechaCar compared to the competition.
 
-In your description, address the following questions:
-What metric or metrics are you going to test?
-What is the null hypothesis or alternative hypothesis?
-What statistical test would you use to test the hypothesis? And why?
-What data is needed to run the statistical test?
+#### What is the null hypothesis or alternative hypothesis?
+The null hypothesis is that the MechaCar has the same fuel efficiencies as the competition. The alternative Hypothesis is that they are not all the same.
+
+#### What statistical test would you use to test the hypothesis? And why?
+I believe the ANOVA test would be the most ideal initially so you can test the entire pool and get a general idea if the null hypothesis is true. Cause, if the alternative hypothesis is true, then we can find the the positive differences of the MechaCar.
+
+#### What data is needed to run the statistical test?
+A sample size of 50 individual cars and their fuel efficiency data. Additionally, when looking to compare cars to the MechaCar, I would want the sample pool to generally be th same specifics as the MechaCar (i.e. size, type, price, etc.)
