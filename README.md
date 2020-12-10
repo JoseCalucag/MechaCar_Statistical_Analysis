@@ -19,7 +19,7 @@ In this section, I based my analysis using the MechaCar_mpg.csv dataset that con
 There are two variables that show a non-random amount of variance: the vehicle_length and the ground_clearance. Both have an extremely small p-value meaning that they have a high level of significance. It should also should be noted that the intercept has a vhigh level of significance meaning that there are still other factors contributing to the variance of the miles per gallon of the MechaCar.
 
 #### Is the slope of the linear model considered to be zero? Why or why not?
-The slope of the linear model is not considered to be zero as we see that the p-value is 5.35e-11, which falls signifcantly our assumed signifance level of 0.05%.
+The slope of the linear model is not considered to be zero as we see that the p-value is 5.35e-11, which falls signifcantly in our assumed signifance level of 0.05%.
 
 #### Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not?
 The main indicator if the linear model predicts the mpg of the prototype is the r-squared value. In this case, the r-square output of 0.7149 means that out of 100 instances, this model would approximately predict the mpg of the MechaCar correctly 71 times. Therefore, we can assume that this linear model can be effective.
