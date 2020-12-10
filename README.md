@@ -72,4 +72,4 @@ The null hypothesis is that the MechaCar has the same fuel efficiencies as the c
 I believe the ANOVA test would be the most ideal initially so you can test the entire pool and get a general idea if the null hypothesis is true. Cause, if the alternative hypothesis is true, then we can find the the positive differences of the MechaCar.
 
 #### What data is needed to run the statistical test?
-A sample size of 50 individual cars and their fuel efficiency data. Additionally, when looking to compare cars to the MechaCar, I would want the sample pool to generally be th same specifics as the MechaCar (i.e. size, type, price, etc.)
+A sample size of 50 individual cars and their fuel efficiency data. Additionally, when looking to compare cars to the MechaCar, I would want the sample pool to generally be the same specifics as the MechaCar (i.e. size, type, price, etc.)
